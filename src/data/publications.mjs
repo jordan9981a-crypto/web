@@ -1,0 +1,57 @@
+const withDoiUrl = (publication) => ({
+  ...publication,
+  url: `https://doi.org/${publication.doi}`,
+});
+
+export const publications = [
+  withDoiUrl({
+    year: 2026,
+    title: 'Zero-dimensional copper coordination compound for enhanced energy density in aqueous zinc-ion batteries',
+    authors: ['Mingchang Zhu', 'Lei Wang', 'Junqi Su', 'Xiaolong Cheng', 'Siyu Shi', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Shuangyan Wu'],
+    journal: 'Journal of Energy Storage',
+    volume: '178',
+    issue: '',
+    pages: '123706',
+    doi: '10.1016/j.est.2026.123706',
+  }),
+  withDoiUrl({
+    year: 2026,
+    title: 'Mn-node modulation of hydrophobic-zincophilic coordination polymer interphase for stable zinc metal anodes',
+    authors: ['Jingwei Liu', 'Yidong Huang', 'Xinyi Chen', 'Chenxu Li', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Yawen Pang', 'Shuangyan Wu'],
+    journal: 'Electrochimica Acta',
+    volume: '575',
+    issue: '',
+    pages: '149500',
+    doi: '10.1016/j.electacta.2026.149500',
+  }),
+  withDoiUrl({
+    year: 2026,
+    title: 'Topology directed Cu-MOF cathode composite with interconnected ion channels for fast and stable Zn2+ storage',
+    authors: ['Mingchang Zhu', 'Lei Wang', 'Qiuying Gao', 'Junqi Su', 'Xiaolong Cheng', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Junzhou He', 'Shuangyan Wu'],
+    journal: 'Energy',
+    volume: '349',
+    issue: '',
+    pages: '140608',
+    doi: '10.1016/j.energy.2026.140608',
+  }),
+  withDoiUrl({
+    year: 2025,
+    title: 'Exploration of a one-dimensional iron-based coordination polymer for enhanced lithium storage capabilities',
+    authors: ['Jingwei Liu', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Mengxian Zheng', 'Lei Zhang', 'Shuangyan Wu', 'Ning Liu', 'Jinchao Cao'],
+    journal: 'CrystEngComm',
+    volume: '27',
+    issue: '5',
+    pages: '687-694',
+    doi: '10.1039/d4ce01082e',
+  }),
+  withDoiUrl({
+    year: 2025,
+    title: 'The construction of one-dimensional chain-like coordination polymers and their applications in anode materials for lithium-ion batteries',
+    authors: ['Jingwei Liu', 'Shifa Dang', 'Xiaolong Cheng', 'Mengxian Zheng', 'Xinyi Chen', 'Weile Kong', 'Lei Zhang', 'Shuangyan Wu'],
+    journal: 'CrystEngComm',
+    volume: '27',
+    issue: '37',
+    pages: '6193-6201',
+    doi: '10.1039/d5ce00657k',
+  }),
+];

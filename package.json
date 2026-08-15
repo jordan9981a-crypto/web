@@ -1,0 +1,16 @@
+{
+  "name": "joint-training-lab-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test",
+    "verify": "node scripts/verify-build.mjs",
+    "check": "npm test && npm run build && npm run verify"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
