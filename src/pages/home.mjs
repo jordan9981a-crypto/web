@@ -15,7 +15,7 @@ function publicationCard(publication) {
     <p class="eyebrow">${escapeHtml(publication.year)} · ${escapeHtml(publication.journal)}</p>
     <h3>${escapeHtml(publication.title)}</h3>
     <p>${escapeHtml(publication.authors.join('; '))}</p>
-    ${externalLink(publication.url, '查看论文', 'button-link')}
+    ${publication.url ? externalLink(publication.url, '查看论文', 'button-link') : '<p>DOI 待补充</p>'}
   </article>`;
 }
 

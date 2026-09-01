@@ -8,13 +8,14 @@ function citation(publication) {
 }
 
 function publicationItem(publication, sequence) {
+  const doi = publication.url ? externalLink(publication.url, publication.doi) : '待补充';
   return `<li class="publication-entry">
     <span class="publication-number">${escapeHtml(sequence)}.</span>
     <div class="publication-record">
       <p class="publication-authors">${escapeHtml(publication.authors.join('; '))}</p>
       <h3>${escapeHtml(publication.title)}</h3>
       <p>${escapeHtml(citation(publication))}</p>
-      <p>DOI: ${externalLink(publication.url, publication.doi)}</p>
+      <p>DOI: ${doi}</p>
     </div>
   </li>`;
 }

@@ -1,6 +1,6 @@
 const withDoiUrl = (publication) => ({
   ...publication,
-  url: `https://doi.org/${publication.doi}`,
+  ...(publication.doi ? { url: `https://doi.org/${publication.doi}` } : {}),
 });
 
 export const publications = [
@@ -13,6 +13,16 @@ export const publications = [
     issue: '',
     pages: '112352',
     doi: '10.1016/j.nanoen.2026.112352',
+  }),
+  withDoiUrl({
+    year: 2026,
+    title: 'Three-dimensional interconnected fibrous interphase constructed from a two-dimensional cyano-functionalized metal-organic framework for multiscale regulation',
+    authors: ['Yawen Pang', 'Xinyu Li', 'Xinyi Chen', 'Xiangli Wen', 'Ying Zhang', 'Junqi Su', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu', 'Jingwei Liu', 'Shuangyan Wu'],
+    journal: 'Journal of Energy Storage',
+    volume: '181',
+    issue: '',
+    pages: '124274',
+    doi: '',
   }),
   withDoiUrl({
     year: 2026,
