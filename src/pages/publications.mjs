@@ -21,8 +21,9 @@ function publicationItem(publication, sequence) {
 }
 
 export function renderPublications() {
-  const years = [...new Set(publications.map(({ year }) => year))].sort((left, right) => right - left);
-  const numberedPublications = publications.map((publication, index) => ({ publication, sequence: index + 1 }));
+  const orderedPublications = [...publications].reverse();
+  const years = [...new Set(orderedPublications.map(({ year }) => year))];
+  const numberedPublications = orderedPublications.map((publication, index) => ({ publication, sequence: index + 1 }));
   return `<section class="page-hero"><div class="container"><p class="eyebrow">Publications</p><h1>论文</h1><p>论文按年份排列，链接指向 DOI 正式出版页面。</p></div></section>
   <section class="section"><div class="container">
     <div class="year-filters" role="group" aria-label="按年份筛选论文"><button type="button" data-year-filter="all" aria-pressed="true">全部</button>${years.map((year) => `<button type="button" data-year-filter="${escapeHtml(year)}" aria-pressed="false">${escapeHtml(year)}</button>`).join('')}</div>
