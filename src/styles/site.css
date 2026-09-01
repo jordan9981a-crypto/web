@@ -98,7 +98,8 @@ h3 { margin: .2rem 0 .8rem; font-size: 1.13rem; }
 .year-filters button { padding: .45rem .9rem; color: var(--brand-dark); background: var(--paper); border: 1px solid var(--line); border-radius: 999px; cursor: pointer; }
 .year-filters button[aria-pressed="true"] { color: var(--paper); background: var(--brand); border-color: var(--brand); }
 .publication-year ol { display: grid; gap: 1.4rem; padding: 0; margin: 0; list-style: none; }
-.publication-entry { padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.publication-entry { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: .85rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.publication-number { color: var(--accent-strong); font-family: "Libre Baskerville", Georgia, serif; font-size: 1.05rem; font-weight: 800; line-height: 1.5; }
 .publication-entry h3 { margin: .3rem 0; font-family: "Noto Serif SC", "Songti SC", serif; font-size: 1.12rem; }
 .publication-entry p { margin: .25rem 0; color: var(--muted); }
 .publication-authors { color: var(--brand) !important; font-size: .92rem; font-weight: 700; }
@@ -158,6 +159,7 @@ h3 { margin: .2rem 0 .8rem; font-size: 1.13rem; }
   .molecule-visual { width: min(68vw, 260px); }
   .section-heading { align-items: start; flex-direction: column; }
   .name-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .publication-entry { grid-template-columns: 2rem minmax(0, 1fr); gap: .6rem; }
   .direction-card, .publication-card, .advisor-card { padding: 1.35rem; }
 }
 

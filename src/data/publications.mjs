@@ -6,6 +6,16 @@ const withDoiUrl = (publication) => ({
 export const publications = [
   withDoiUrl({
     year: 2026,
+    title: 'Real-CIF-guided generative discovery of MOF/PVDF-HFP solid-state electrolytes under coupled electrochemical-mechanical constraints',
+    authors: ['Zelong Zhuang', 'Chenxu Li', 'Jie Cui', 'Xiaojin Yang', 'Lei Wang', 'Siyu Shi', 'Jingwei Liu', 'Xueming Yang', 'Shuangyan Wu'],
+    journal: 'Nano Energy',
+    volume: '',
+    issue: '',
+    pages: '112352',
+    doi: '10.1016/j.nanoen.2026.112352',
+  }),
+  withDoiUrl({
+    year: 2026,
     title: 'Flexible two-dimensional metal-organic framework composites with a dual energy storage mechanism as high-performance cathodes for aqueous zinc ion batteries',
     authors: ['Siyu Shi', 'Shuqi Xu', 'Mingchang Zhu', 'Ying Zhang', 'Yaguang Sun', 'Lei Wang', 'Junqi Su', 'Jingwei Liu', 'Shuangyan Wu'],
     journal: 'Journal of Power Sources',
@@ -33,26 +43,6 @@ export const publications = [
     issue: '',
     pages: '123245',
     doi: '10.1016/j.est.2026.123245',
-  }),
-  withDoiUrl({
-    year: 2026,
-    title: 'One-step synthesis of isostructural 2D metal-organic coordination polymers with tuned metal centers for diverse lithium storage',
-    authors: ['Lin Zhang', 'Fengyu Li', 'Mengxian Zheng', 'Pengyin Ren', 'Siyu Wang', 'Zhichao Shao', 'Ning Liu', 'Chao Huang', 'Jingwei Liu'],
-    journal: 'Journal of Alloys and Compounds',
-    volume: '1056',
-    issue: '',
-    pages: '186575',
-    doi: '10.1016/j.jallcom.2026.186575',
-  }),
-  withDoiUrl({
-    year: 2026,
-    title: 'A review on metal-organic framework-based polymer solid-state electrolytes for energy storage',
-    authors: ['Zelong Zhuang', 'Xiaojin Yang', 'Jie Cui', 'Jingwei Liu', 'Xueming Yang'],
-    journal: 'Journal of Energy Storage',
-    volume: '147',
-    issue: '',
-    pages: '120195',
-    doi: '10.1016/j.est.2025.120195',
   }),
   withDoiUrl({
     year: 2026,
