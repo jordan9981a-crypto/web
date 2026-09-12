@@ -7,7 +7,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Real-CIF-guided generative discovery of MOF/PVDF-HFP solid-state electrolytes under coupled electrochemical-mechanical constraints',
-    authors: ['Zelong Zhuang', 'Chenxu Li', 'Jie Cui', 'Xiaojin Yang', 'Lei Wang', 'Siyu Shi', 'Jingwei Liu', 'Xueming Yang', 'Shuangyan Wu'],
+    authors: ['Zelong Zhuang', 'Chenxu Li', 'Jie Cui', 'Xiaojin Yang', 'Lei Wang', 'Siyu Shi', 'Jingwei Liu*', 'Xueming Yang*', 'Shuangyan Wu*'],
     journal: 'Nano Energy',
     volume: '',
     issue: '',
@@ -17,7 +17,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Three-dimensional interconnected fibrous interphase constructed from a two-dimensional cyano-functionalized metal-organic framework for multiscale regulation of zinc deposition',
-    authors: ['Yawen Pang', 'Xinyu Li', 'Xinyi Chen', 'Xiangli Wen', 'Ying Zhang', 'Junqi Su', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Yawen Pang', 'Xinyu Li', 'Xinyi Chen', 'Xiangli Wen', 'Ying Zhang', 'Junqi Su', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu*', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Journal of Energy Storage',
     volume: '181',
     issue: '',
@@ -27,7 +27,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'A 3D Metal-Organic Framework Protective Layer with Size-Selective Channels and Zincophilic Sites for Highly Stable Zinc Metal Anodes',
-    authors: ['Jingwei Liu', 'Xinyi Chen', 'Yidong Huang', 'Baoxin Shen', 'Chenxu Li', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Lei Zhang', 'Shuangyan Wu'],
+    authors: ['Jingwei Liu', 'Xinyi Chen', 'Yidong Huang', 'Baoxin Shen', 'Chenxu Li', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Lei Zhang*', 'Shuangyan Wu*'],
     journal: 'ACS Applied Materials & Interfaces',
     volume: '',
     issue: '',
@@ -37,7 +37,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Flexible two-dimensional metal-organic framework composites with a dual energy storage mechanism as high-performance cathodes for aqueous zinc ion batteries',
-    authors: ['Siyu Shi', 'Shuqi Xu', 'Mingchang Zhu', 'Ying Zhang', 'Yaguang Sun', 'Lei Wang', 'Junqi Su', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Siyu Shi', 'Shuqi Xu', 'Mingchang Zhu', 'Ying Zhang', 'Yaguang Sun', 'Lei Wang', 'Junqi Su*', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Journal of Power Sources',
     volume: '694',
     issue: '',
@@ -47,7 +47,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Zero-dimensional copper coordination compound for enhanced energy density in aqueous zinc-ion batteries',
-    authors: ['Mingchang Zhu', 'Lei Wang', 'Junqi Su', 'Xiaolong Cheng', 'Siyu Shi', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Mingchang Zhu', 'Lei Wang', 'Junqi Su', 'Xiaolong Cheng', 'Siyu Shi', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Journal of Energy Storage',
     volume: '178',
     issue: '',
@@ -57,7 +57,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'π-π stacking facilitated exfoliation: Constructing 2D MOF/graphene nanosheet composite for fast and durable Zn2+ storage',
-    authors: ['Weile Kong', 'Xiangli Wen', 'Yawen Pang', 'Junqi Su', 'Ying Zhang', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Weile Kong', 'Xiangli Wen', 'Yawen Pang', 'Junqi Su', 'Ying Zhang', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu*', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Journal of Energy Storage',
     volume: '174',
     issue: '',
@@ -67,7 +67,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Topology directed Cu-MOF cathode composite with interconnected ion channels for fast and stable Zn2+ storage',
-    authors: ['Mingchang Zhu', 'Lei Wang', 'Qiuying Gao', 'Junqi Su', 'Xiaolong Cheng', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Junzhou He', 'Shuangyan Wu'],
+    authors: ['Mingchang Zhu', 'Lei Wang', 'Qiuying Gao', 'Junqi Su', 'Xiaolong Cheng', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Junzhou He*', 'Shuangyan Wu*'],
     journal: 'Energy',
     volume: '349',
     issue: '',
@@ -77,7 +77,7 @@ export const publications = [
   withDoiUrl({
     year: 2026,
     title: 'Mn-node modulation of hydrophobic-zincophilic coordination polymer interphase for stable zinc metal anodes',
-    authors: ['Jingwei Liu', 'Yidong Huang', 'Xinyi Chen', 'Chenxu Li', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Yawen Pang', 'Shuangyan Wu'],
+    authors: ['Jingwei Liu', 'Yidong Huang', 'Xinyi Chen', 'Chenxu Li', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Yawen Pang', 'Shuangyan Wu*'],
     journal: 'Electrochimica Acta',
     volume: '575',
     issue: '',
@@ -87,7 +87,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'Rational engineering of cyano-functionalized 2D coordination polymers for high redox activity cathode in aqueous zinc-ion batteries',
-    authors: ['Weile Kong', 'Yuhan Jiang', 'Shifa Dang', 'Ying Zhang', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Weile Kong', 'Yuhan Jiang', 'Shifa Dang', 'Ying Zhang', 'Lei Wang', 'Yaguang Sun', 'Mingchang Zhu*', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Chemical Engineering Journal',
     volume: '526',
     issue: '',
@@ -97,7 +97,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'Multi-active site zinc-based metal-organic frameworks-interlinked carbon: a high-performance cathode for rechargeable aqueous zinc-ion batteries',
-    authors: ['Mingchang Zhu', 'Shuqi Xu', 'Mengxian Zheng', 'Lei Wang', 'Ying Zhang', 'Yaguang Sun', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Mingchang Zhu', 'Shuqi Xu', 'Mengxian Zheng', 'Lei Wang', 'Ying Zhang', 'Yaguang Sun', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Journal of Power Sources',
     volume: '649',
     issue: '',
@@ -107,7 +107,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'π-π conjugated MOF/nano-carbon complexes: Synergistic ion transport and redox pathways for fast zinc-ion storage',
-    authors: ['Mingchang Zhu', 'Qiuying Gao', 'Siyu Shi', 'Xiaolong Cheng', 'Mengxian Zheng', 'Lei Wang', 'Weile Kong', 'Ying Zhang', 'Yaguang Sun', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Mingchang Zhu', 'Qiuying Gao', 'Siyu Shi', 'Xiaolong Cheng', 'Mengxian Zheng', 'Lei Wang', 'Weile Kong', 'Ying Zhang', 'Yaguang Sun', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'Materials Today Energy',
     volume: '53',
     issue: '',
@@ -117,7 +117,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'Designing a 2D calcium coordination polymer interconnected with carbon as a high-performance cathode for aqueous zinc-ion batteries',
-    authors: ['Mingchang Zhu', 'Qiuying Gao', 'Mengxian Zheng', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu', 'Shuangyan Wu'],
+    authors: ['Mingchang Zhu', 'Qiuying Gao', 'Mengxian Zheng', 'Lei Wang', 'Yaguang Sun', 'Jingwei Liu*', 'Shuangyan Wu*'],
     journal: 'ACS Sustainable Chemistry & Engineering',
     volume: '13',
     issue: '',
@@ -127,7 +127,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'One-dimensional transition-metal-based metal-organic assembly engineered for enhanced lithium storage',
-    authors: ['Jingwei Liu', 'Mengxian Zheng', 'Xiaolong Cheng', 'Shifa Dang', 'Qian Zhang', 'Lei Zhang', 'Ning Liu', 'Shuangyan Wu'],
+    authors: ['Jingwei Liu', 'Mengxian Zheng*', 'Xiaolong Cheng', 'Shifa Dang', 'Qian Zhang', 'Lei Zhang*', 'Ning Liu*', 'Shuangyan Wu'],
     journal: 'ACS Applied Energy Materials',
     volume: '8',
     issue: '',
@@ -137,7 +137,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'Exploration of a one-dimensional iron-based coordination polymer for enhanced lithium storage capabilities',
-    authors: ['Jingwei Liu', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Mengxian Zheng', 'Lei Zhang', 'Shuangyan Wu', 'Ning Liu', 'Jinchao Cao'],
+    authors: ['Jingwei Liu', 'Xiaolong Cheng', 'Shifa Dang', 'Weile Kong', 'Mengxian Zheng', 'Lei Zhang', 'Shuangyan Wu*', 'Ning Liu*', 'Jinchao Cao*'],
     journal: 'CrystEngComm',
     volume: '27',
     issue: '5',
@@ -147,7 +147,7 @@ export const publications = [
   withDoiUrl({
     year: 2025,
     title: 'The construction of one-dimensional chain-like coordination polymers and their applications in anode materials for lithium-ion batteries',
-    authors: ['Jingwei Liu', 'Shifa Dang', 'Xiaolong Cheng', 'Mengxian Zheng', 'Xinyi Chen', 'Weile Kong', 'Lei Zhang', 'Shuangyan Wu'],
+    authors: ['Jingwei Liu', 'Shifa Dang', 'Xiaolong Cheng', 'Mengxian Zheng', 'Xinyi Chen', 'Weile Kong', 'Lei Zhang*', 'Shuangyan Wu*'],
     journal: 'CrystEngComm',
     volume: '27',
     issue: '37',
@@ -157,7 +157,7 @@ export const publications = [
   withDoiUrl({
     year: 2023,
     title: 'Design of 3D metal-organic material with multiple redox-active sites for high-performance lithium-ion batteries',
-    authors: ['Jingwei Liu', 'Mengxian Zheng', 'Shifa Dang', 'Lei Zhang', 'Shuangyan Wu'],
+    authors: ['Jingwei Liu', 'Mengxian Zheng', 'Shifa Dang', 'Lei Zhang*', 'Shuangyan Wu*'],
     journal: 'Energy & Fuels',
     volume: '37',
     issue: '',
@@ -167,7 +167,7 @@ export const publications = [
   withDoiUrl({
     year: 2023,
     title: 'Design strategies for coordination polymers as electrodes and electrolytes in rechargeable lithium batteries',
-    authors: ['Jingwei Liu', 'Mengxian Zheng', 'Shuangyan Wu', 'Lin Zhang'],
+    authors: ['Jingwei Liu', 'Mengxian Zheng', 'Shuangyan Wu*', 'Lin Zhang*'],
     journal: 'Coordination Chemistry Reviews',
     volume: '483',
     issue: '',
