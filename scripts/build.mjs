@@ -7,6 +7,7 @@ import { renderHome } from '../src/pages/home.mjs';
 import { renderAbout } from '../src/pages/about.mjs';
 import { renderMembers } from '../src/pages/members.mjs';
 import { renderPublications } from '../src/pages/publications.mjs';
+import { renderTutorials } from '../src/pages/tutorials.mjs';
 
 const rootDirectory = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sourceDirectory = resolve(rootDirectory, 'src');
@@ -18,6 +19,7 @@ const pages = [
   { file: 'about.html', title: '课题组简介', description: site.description, render: renderAbout },
   { file: 'members.html', title: '成员', description: '刘景维—吴双妍联合培养课题组成员名单。', render: renderMembers },
   { file: 'publications.html', title: '论文', description: '刘景维—吴双妍联合培养课题组论文目录。', render: renderPublications },
+  { file: 'tutorials.html', title: '科研教程', description: '吴双妍—刘景维联合培养课题组科研教程。', render: renderTutorials },
 ];
 
 function isProperDescendant(path, parent) {

@@ -6,6 +6,7 @@ const navigation = [
   ['about.html', '课题组简介'],
   ['members.html', '成员'],
   ['publications.html', '论文'],
+  ['tutorials.html', '科研教程'],
 ];
 
 function schoolMark({ name, url, logo, logoWidth, logoHeight }) {
