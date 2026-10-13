@@ -103,6 +103,13 @@ h3 { margin: .2rem 0 .8rem; font-size: 1.13rem; }
 .publication-entry h3 { margin: .3rem 0; font-family: "Noto Serif SC", "Songti SC", serif; font-size: 1.12rem; }
 .publication-entry p { margin: .25rem 0; color: var(--muted); }
 .publication-authors { color: var(--brand) !important; font-size: .92rem; font-weight: 700; }
+.admin-contact-button { padding: 0; color: var(--brand); background: none; border: 0; font-weight: 700; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
+.admin-contact-button:hover { color: var(--brand-dark); }
+.admin-contact-dialog { position: fixed; width: min(92vw, 560px); max-height: 90vh; padding: 1rem; border: 0; border-radius: var(--radius); box-shadow: var(--shadow); }
+.admin-contact-dialog::backdrop { background: rgb(0 0 0 / .6); }
+.admin-contact-dialog form { display: flex; justify-content: flex-end; }
+.admin-contact-close { padding: .15rem .65rem; color: var(--ink); background: var(--mist); border: 0; border-radius: 8px; font-size: 1.5rem; line-height: 1.3; cursor: pointer; }
+.admin-contact-dialog img { width: auto; max-height: 75vh; margin: 0 auto; object-fit: contain; }
 
 .site-footer { padding: 3.5rem 0; color: rgb(255 255 255 / .82); background: var(--brand-dark); }
 .footer-grid { display: grid; grid-template-columns: 1.3fr .7fr; gap: 2rem; }

@@ -39,3 +39,12 @@ for (const button of filterButtons) {
     }
   });
 }
+
+const adminContactDialog = document.querySelector('#admin-contact-dialog');
+for (const button of document.querySelectorAll('[data-open-admin-contact]')) {
+  button.addEventListener('click', () => adminContactDialog?.showModal());
+}
+
+adminContactDialog?.addEventListener('click', (event) => {
+  if (event.target === adminContactDialog) adminContactDialog.close();
+});
